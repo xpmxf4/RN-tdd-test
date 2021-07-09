@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders without error 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "pink",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <RCTScrollView>
+    <View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+            },
+            undefined,
+          ]
+        }
+      >
+        loading....
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
